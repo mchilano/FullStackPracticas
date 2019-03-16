@@ -1,0 +1,47 @@
+* {
+padding: 10px;
+margin: 0;
+box-sizing: border-box;
+color:white;
+font-size: 40px;
+}
+
+div.contenedor {
+width: 960px;
+margin: auto;
+background-color: darkblue;
+padding: 30px 10px;
+}
+
+header,aside,main,footer{
+background-color: aquamarine;
+}
+
+header{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+aside {
+  width: 300px;
+  float: left;
+  text-align: center;
+  margin-right: 10px;
+}
+
+main {
+  width: 630px;
+  float: right;
+  text-align: center;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+
+}
+
+div.limpieza {
+  margin-bottom: 10px;
+  clear: both;
+}

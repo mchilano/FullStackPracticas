@@ -1,0 +1,48 @@
+body {
+background-image: url("../img/mapa.jpg");
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: 1372px 195px;
+font-family: 'Open Sans', sans-serif;
+}
+
+H1 {
+background-color: rgba(  236, 240, 241 , 0.2);
+font-size: 40px;
+font-family: 'Raleway', sans-serif;
+color: black;
+text-decoration: none;
+
+}
+
+H2 {
+line-height: 2PX;
+color: black ;
+width: 130px;
+text-align: right;
+font-size: 16px;
+font-family:'Work Sans', sans-serif;
+font-weight: bold;
+text-decoration: none;
+
+}
+
+H3 {
+  width: 1280px;
+  text-align: right;
+  font-size: 14px;
+}
+
+H4 {
+  line-height: 2PX;
+  color:  #323537 ;
+  width: 131px;
+  text-align: right;
+  font-size: 28px;
+  font-family:'Work Sans', sans-serif;
+}
+
+p {
+  width: 1280px;
+  text-align: right;
+}

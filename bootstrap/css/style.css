@@ -1,0 +1,71 @@
+body {
+font font-family: arial;
+}
+
+    /* ESTILOS GENERALES */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  line-height: 2rem;
+  position: relative;
+}
+
+nav li ul {
+  position: absolute;
+  display: none;
+}
+
+nav a {
+  text-decoration: none;
+  color:  #2C3E50;
+  display: block;
+  padding: 0 2.5em;
+
+}
+
+nav a:hover {
+  background: yellow;
+  opacity: 0.4;
+}
+
+nav li:hover > ul {
+  display:block;
+
+}
+
+    /* PRIMER NIVEL */
+
+nav > ul {
+width: 100%;
+background-color: #18BC9C;
+display: table;
+}
+
+nav > ul > li {
+  float: left;
+
+}
+
+
+    /* SEGUNDO NIVEL */
+nav li li {
+  background: orange;
+ opacity: 0.3%;
+ width: 100%;
+}
+
+nav ul li ul {
+  top: 100%;
+}
+
+
+
+    /* TERCER NIVEL */
+
+nav ul ul ul {
+  left: 100%;
+  top:0;
+}

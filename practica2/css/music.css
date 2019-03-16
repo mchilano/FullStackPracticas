@@ -1,0 +1,90 @@
+* {
+  text-decoration: none;
+}
+
+header {
+
+  width: 1216px;
+  height: 207px;
+  text-align: right;
+}
+
+div.contenedor {
+  background-image: url("../img/emilia-music-top.jpg");
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  padding: 22px;
+}
+
+a {
+  color:black;
+
+}
+
+H1 {
+font-size: 14px;
+font-family: 'Raleway', sans-serif;
+color: black;
+text-decoration: none;
+text-align: right;
+width: 1260px;
+background-color: white;
+opacity: 0.6;
+line-height: 42px;
+margin-left: -22px;
+
+}
+
+H2 {
+  color: black;
+  width: 440px;
+  text-align: left;
+  font-size: 70px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+aside {
+  width:200px
+}
+
+h3 {
+  color: black;
+  text-align: left;
+  font-size: 18px;
+}
+
+h4 {
+  color: grey;
+  font-size: 15px;
+  padding-left: 41px;
+  line-height: 1px;
+
+}
+
+.texto1 {
+color: grey;
+font-size: 15px;
+padding-left: 41px;
+line-height: 1px;
+}
+
+h5 {
+  color:black;
+  font-size: 22px;
+  line-height: 0px;
+}
+
+.album {
+  width: 856px;
+  height: 400px;
+  background-image: url("../img/emilia-play-list.png");
+}
+
+.texto2 {
+  color: grey;
+  font-size: 15px;
+}

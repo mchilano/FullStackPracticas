@@ -1,0 +1,358 @@
+* {
+  box-sizing: border-box;
+
+}
+
+title {
+  font-style: italic;
+  font-family: arial;
+}
+
+header img .logo {
+  position: absolute;
+  top: -35px;
+  left: -10px;
+}
+
+body {
+  background-image: url("img/bg-2.png");
+  background-size: cover;
+}
+
+header {
+  margin-bottom: 30px;
+  width: 960px;
+}
+
+.menu{
+    list-style-type: none;
+    background-color:  #943126;
+    text-align: left;
+    width: 933px;
+    color: red;
+   padding: 13px 13px 9px;
+   margin: 19px 0px;
+   position: fixed;
+   font-size: 23px;
+   }
+
+ nav {
+   display: inline-block;
+   width: 600px;
+   position: fixed;
+ }
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    background-color:  #943126;
+}
+.menu li{
+    text-align: right;
+    display: inline-block;
+    margin: 0PX;
+    padding: 6px;
+  }
+
+  .caja1{
+    width: 1012px;
+    background-color: white;
+    padding: 15px;
+    padding-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 466px;
+    position: static;
+    overflow: hidden;
+    float:left;
+  }
+
+.contenedor1 {
+   width: 300px;
+   height: 170px;
+   margin-left: 15px;
+   background-image: url("img/img-phone-01.jpg");
+   position: relative;
+   float: left;
+
+}
+
+.contenedor2 {
+  position: relative;
+  margin-left: 345px;
+}
+
+.contenedor3 {
+  position: relative;
+  margin-left: 645px;
+  top: -173px;
+  left: 15px;
+
+}
+
+.contenedor4 {
+  width: 300px;
+  height: 170px;
+  margin-left: 15px;
+  background-image: url("img/img-phone-02.jpg");
+  position: relative;
+  float: left;
+  margin-top: -160px;
+}
+
+.contenedor5 {
+  position: relative;
+  margin-left: 345px;
+  margin-top: -160px;
+
+
+}
+
+.contenedor6 {
+  position: relative;
+  margin-left: 645px;
+  top: -173px;
+  left: 15px;
+  margin-top: 0px;
+
+}
+
+.contenedor7 {
+  width: 300px;
+  height: 170px;
+  margin-left: 15px;
+  background-image: url("img/img-phone-01.jpg");
+  position: relative;
+  float: left;
+  margin-top: -160px;
+}
+
+.contenedor8 {
+  position: relative;
+  margin-left: 345px;
+  margin-top: -160px;
+}
+
+.contenedor9 {
+  position: relative;
+  margin-left: 645px;
+  top: -173px;
+  left: 15px;
+  margin-top: 0px;
+
+}
+
+.texto1 {
+  float: left;
+  position: absolute;
+  color: white;
+  opacity: 0.4;
+  background-color: black;
+  width:300px;
+  text-align: center;
+  font-style: italic;
+  top: 61px;
+  margin-left: 0px;
+  font-weight: bold;
+}
+
+.texto2 {
+  float: left;
+  position: absolute;
+  color: white;
+  opacity: 0.4;
+  background-color: black;
+  width:300px;
+  text-align: center;
+  font-style: italic;
+  top: 61px;
+  margin-left: 0px;
+  font-weight: bold;
+}
+
+.texto3 {
+  float: left;
+  position: absolute;
+  color: white;
+  opacity: 0.4;
+  background-color: black;
+  width:300px;
+  text-align: center;
+  font-style: italic;
+  top: 61px;
+  margin-left:0px;
+  font-weight: bold;
+}
+
+.texto4 {
+  float: left;
+  position: absolute;
+  color: white;
+  opacity: 0.4;
+  background-color: black;
+  width:300px;
+  text-align: center;
+  font-style: italic;
+  top: 61px;
+  margin-left: 0px;
+  font-weight: bold;
+
+}
+
+.texto5 {
+  float: left;
+  position: absolute;
+  color: white;
+  opacity: 0.4;
+  background-color: black;
+  width:300px;
+  text-align: center;
+  font-style: italic;
+  top: 61px;
+  margin-left: 0px;
+  font-weight: bold;
+}
+
+.texto6 {
+  float: left;
+  position: absolute;
+  color: white;
+  opacity: 0.4;
+  background-color: black;
+  width:300px;
+  text-align: center;
+  font-style: italic;
+  top: 61px;
+  margin-left:0px;
+  font-weight: bold;
+}
+
+
+.bandera {
+  float: left;
+  position: absolute;
+  margin-top: 0px;
+  right: 10px;
+  top: 0px;
+}
+
+.bandera2 {
+  float: left;
+  position: absolute;
+  margin-top: 0px;
+  right: 348px;
+  top: 0px;
+}
+
+.bandera3 {
+  float: left;
+  position: absolute;
+  margin-top: 0px;
+  right: 50px;
+  top: 0px;
+}
+
+.bandera4 {
+  float: left;
+  position: absolute;
+  margin-top: 0px;
+  right: 10px;
+  top: 0px;
+}
+
+.bandera5 {
+  float: left;
+  position: absolute;
+  margin-top: 0px;
+  right: 348px;
+  top: 0px;
+}
+
+.bandera6 {
+  float: left;
+  position: absolute;
+  margin-top: 0px;
+  right: 50px;
+  top: 0px;
+}
+
+.boton1 {
+  width: 77px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 14px;
+  bottom: 20px;
+  position: absolute;
+  margin-left: 99px;
+  cursor: pointer;
+
+}
+
+.boton2 {
+  width: 77px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 14px;
+  bottom: 24px;
+  position: absolute;
+  margin-left: -191px;
+  cursor: pointer;
+}
+
+.boton3 {
+  width: 77px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 14px;
+  bottom: 24px;
+  position: absolute;
+  margin-left: -191px;
+  cursor: pointer;
+}
+
+.boton4 {
+  width: 77px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 14px;
+  bottom: 20px;
+  position: absolute;
+  margin-left: 99px;
+  cursor: pointer;
+
+}
+
+.boton5 {
+  width: 77px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 14px;
+  bottom: 24px;
+  position: absolute;
+  margin-left: -191px;
+  cursor: pointer;
+
+}
+
+.boton6 {
+  width: 77px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 14px;
+  bottom: 24px;
+  position: absolute;
+  margin-left: -191px;
+  cursor: pointer;
+}

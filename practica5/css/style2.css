@@ -1,0 +1,154 @@
+* {
+
+    font-family: sans-serif;
+  }
+
+body {
+  background-color: lightblue;
+}
+
+
+.fondo {
+  width: 95%;
+  background-color: white;
+  height: 600px;
+  position: center;
+  margin: 6em auto;
+  border: dashed 1.25em grey;
+
+}
+
+.fondo2 {
+  background-color: white;
+  height: 600px;
+  position: center;
+  margin: 6em auto;
+  border: dashed 1.25em grey;
+}
+
+header h1 {
+  width: 100%;
+  font-size: 37px;
+  line-height: 10px;
+  font-family: tahoma, Helvetica, sans-serif;
+  color: #00000C;
+  text-align: center;
+  background-color: grey;
+  opacity: 0.4;
+}
+
+h2  {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 2.28em;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+p.cajaD {
+  font-size: 1.04em;
+
+}
+
+p.cajaE {
+  font-size: 1.04em;
+
+}
+
+p.cajaF {
+  font-size: 1.04em;
+
+}
+
+strong {
+  font-size: 0.9em;
+}
+
+
+#cajaA {
+  width: 40%;
+  color: black;
+  background-color:  #fad7a0;
+  text-align: center;
+  height: 600px;
+  font-size: 2em;
+  float:left;
+  align-items: center;
+  overflow: scroll;
+  position: relative;
+  z-index: 20;
+
+}
+
+#cajaB {
+  width: 55%;
+  color: BLACK;
+  background-color: #ba4a00;
+  text-align: center;
+  height: 600px;
+  font-size: 2em;
+  float: right;
+  overflow: scroll;
+  position: relative;
+  z-index: 40;
+
+}
+
+#cajaC {
+  width: 100%;
+  background-color:  #797d7f ;
+  height: 600px;
+  font-size: 2em;
+  color: black;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: scroll;
+  float: none;
+  position: absolute;
+  z-index: 10;
+
+}
+
+#cajaD {
+  background-color: #ba4a00;
+  height: 200px;
+  font-size: 2em;
+  overflow: scroll;
+
+}
+
+#cajaE {
+  background-color: #ba4a00;
+  height: 200px;
+  font-size: 2em;
+  overflow: scroll;
+
+}
+
+#cajaF {
+  background-color: #797d7f ;
+  height: 200px;
+  font-size: 2em;
+  overflow: scroll;
+
+}
+
+
+
+@@media (max-width:900px) {
+  .fondo {
+    width:95%;
+  }
+
+}
+
+@@media (min-width:450px) {
+  .fondo2 {
+    width:100%;
+  }
+
+}
