@@ -1,6 +1,8 @@
 * {
-
     font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+
   }
 
 body {
@@ -8,24 +10,30 @@ body {
 }
 
 .fondo {
-  width: 1200px;
+  width: 96%;
   background-color: white;
-  height: 600px;
+  height: 1800px;
   position: center;
-  margin: 6em auto;
+  margin:auto;
   border: dashed 0.6em grey;
 }
 
 
 header h1 {
   width: 100%;
-  font-size: 37px;
-  line-height: 10px;
+  height: 20vh;
+  font-size: 44px;
+  line-height: 42px;
   font-family: tahoma, Helvetica, sans-serif;
   color: #00000C;
   text-align: center;
   background-color: grey;
-  opacity: 0.4;
+  opacity: 0.6;
+  margin-left: -3px;
+  padding-top: 63px;
+  margin-top: 10px;
+
+  }
 }
 
 h2  {
@@ -42,7 +50,7 @@ strong {
 
 
 #cajaA {
-  width: 20.83%;
+  width: 98.83%;
   color: black;
   background-color:  #fad7a0;
   text-align: center;
@@ -55,28 +63,69 @@ strong {
 }
 
 #cajaB {
-  width: 66.67%;
+  width: 98.83%;
   color: BLACK;
   background-color: #ba4a00;
   text-align: center;
   height: 600px;
   font-size: 2em;
   float: left;
-  margin-left: 2.08%;
-  margin-right: 2.08%;
   overflow: scroll;
 
 }
 
 #cajaC {
-  width: 8.33%;
+  width: 98.83%;
   background-color:  #797d7f ;
   height: 600px;
   font-size: 2em;
   float: left;
   color: black;
   text-align: center;
-  box-sizing: border-box;
   overflow: scroll;
+
+}
+
+@media (min-width:460px) {
+
+.fondo {
+  height: 1200px;
+}
+
+#cajaA {
+   width: 49.83%;
+}
+
+#cajaB {
+  width: 46.83%;
+  margin-left: 3%;
+}
+
+#cajaC {
+  float: none;
+  width: 100%;
+}
+
+}
+
+@media (min-width:780px) {
+
+  .fondo {
+    height: 600px;
+  }
+
+  #cajaA {
+     width: 24.83%;
+  }
+
+  #cajaB {
+    width: 49.83%;
+    margin-left: 0px;
+  }
+
+  #cajaC {
+    width: 24.83%;
+  }
+
 
 }
