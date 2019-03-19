@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    font-family: 'Coiny', cursive;
+}
+
+main{
+    width: 660px;
+    margin: 50px auto;
+}
+
+/*esto es un comentario*/
+h1{
+    font-weight: lighter;
+    text-align: center;
+    color:blue;
+}
+h1{
+    color: white;
+    color: green;
+}
+h3{
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/*esto es para el menu*/
+.menu{
+    list-style-type: none;
+    text-align: right;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu li{
+    text-align: right;
+    display: inline-block;
+    margin: 0 5px;
+    border: 2px dotted blue;
+    padding: 6px;
+}
+.menu li:hover{
+    background-color: aquamarine;
+    color:yellow;
+}
+
+.imagen-flotando{
+    float: left;
+}
+
+/* va para el logo */
+#logo{
+    width: 30px;
+    opacity: 0.3;
+}
+
+.naranja{
+    background-color: #ddd;
+    color: blue;
+}
+
+.seccion1{
+    border: 1px solid black;
+    background-color: #4565f4;
+    overflow: hidden;
+}
+
+
+.seccion1 article{
+    width: 300px;
+    float: left;
+}
+
+.limpiar{
+    clear: both;
+}
+
+
+p {
+    background-color:green;
+    text-align: justify;
+}
