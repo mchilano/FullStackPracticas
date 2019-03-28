@@ -29,13 +29,14 @@ while ($i >= 85) {
  ?> -->
 
 
- <!-- <?php
+ <?php
     $cara = 0;
     $ceca = 1;
 
 
     while ($cara < 5) {
       $moneda= rand(0,1);
+      echo $moneda;
 
       if ($moneda == 0){
         $cara ++;
@@ -44,10 +45,10 @@ while ($i >= 85) {
 
     }
        echo $cara;
-  ?> -->
+  ?>
 
 
-  <?php
+  <!-- <?php
 
   $ceu = [
   "Argentina"=> ["Buenos Aires", "Córdoba", "Santa Fé"],
@@ -70,4 +71,4 @@ while ($i >= 85) {
 
 
 
-   ?>
+   ?> -->
