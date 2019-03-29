@@ -58,7 +58,7 @@ echo mayor(4,18,10);
   }
     echo mayorN(4,20);
 
- ?> -->
+ ?>
 
 
  <?php
