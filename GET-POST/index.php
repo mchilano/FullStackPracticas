@@ -1,22 +1,17 @@
-<?php
+<!-- <?php
 
 $error = "";
-
 if ($_POST) {
-
   if ($_POST['usuario'] == "") {
     $error = "Usuario incorrecto";
   } else {
     if(strlen($_POST['nombre']) < 3) {
       $error = "Cantidad caracteres minimos incorrectos";
-
     }
   }
-
 }
 
-
-?>
+?> -->
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -34,9 +29,12 @@ if ($_POST) {
   <h1>FORMULARIO DE VALIDACION</h1>
 
 
-    <form class="" action="" method="POST">
+    <form class="" action="procesar.php" method="POST">
       <p>
-        Usuario <input type="text" name="Usuario" value="< >">
+        Usuario <input type="text" name="usuario" value="">
+      </p>
+      <p>
+        Password <input type="password" name="password" value="">
       </p>
       <p>
         Email <input type="email" name="Email" value="">
@@ -62,4 +60,4 @@ if ($_POST) {
 
 
 
- </form>
+</form>
