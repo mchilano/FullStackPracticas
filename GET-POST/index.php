@@ -53,7 +53,7 @@ if ($_POST) {
       <p> <button type="submit" name="button" value="Registrarse">
         Registrarse
       </button>
-
+    </p>
 
   </body>
 </html>

@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <?php
+
+session_start();
+
+if (isset($_SESSION['nombre'])) {
+   header("LOCATION = home.php");
+
+}
+
+
 //verifico que estoy mandando datos
 if ($_POST) {
   //guardo los datos que recibo de formulario
@@ -18,8 +27,11 @@ if ($_POST) {
   //y si los emails son iguales
   if(password_verify($contrasenia, $contraseniaRegistrada)&& $email ==$emailRegistrado){
     //si da true, da la bienvenida
-    echo "BIENVENIDO {$usuarioEnphp['nombre']}";
-  }else{
+    // echo "BIENVENIDO {$usuarioEnphp['nombre']}";
+    $_SESSION['email'] = $emailRegistrado;
+    $_SESSION['nombre'] = $usuarioEnphp['nombre'];
+    header("LOCATION:home.php");
+  } else{
     //sino avisa que hay error
     echo "usuario y/o contraseña incorrecta";
   }
