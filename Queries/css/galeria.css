@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 40px;
+}
+
+div.contenedor{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #3456f4;
+    padding: 30px 10px;
+}
+
+header, aside, main, footer{
+    background-color: aquamarine;
+}
+
+header{
+    margin-bottom: 30px;
+}
+
+aside{
+    width: 300px;
+}
+main{
+    width: 630px;
+}
+
+aside{
+    float: left;
+}
+main{
+    float: right;
+}
+
+.limpieza{
+    clear: both;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+/**/
