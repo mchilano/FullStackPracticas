@@ -7,7 +7,7 @@ if (isset($_SESSION['nombre'])) {
 
 } else {
 
-  header("LOCATION=lohin.php");
+  header("LOCATION=login.php");
 }
 
  ?>
