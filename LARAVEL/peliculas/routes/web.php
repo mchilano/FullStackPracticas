@@ -33,7 +33,6 @@ Route::get('/pelicula/{titulo}', function($titulo) {
  ];
 
   foreach ($peliculas as $pelicula) {
-    noExiste= true;
     if ( $pelicula['title'] == $titulo) {
       return  '<li>'.$pelicula['title'] .' - '. $pelicula['genre'].'<br>'.'<img src="/'.$pelicula["poster"].'">'.'</li>';
 
