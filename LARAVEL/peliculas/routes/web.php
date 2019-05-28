@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/genres', 'GenreController@index');
+
+Route::get('actors','ActorController@index');
+
 Route::get('/miRuta', function() {
  echo " <h1> Mi primer ruta en
 Laravel</h1> ";
