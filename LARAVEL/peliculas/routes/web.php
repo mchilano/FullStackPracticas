@@ -11,9 +11,23 @@
 |
 */
 
-Route::get('/genres', 'GenreController@index');
+//esta ruta carga el formulario
+Route::get('/genres/create', 'GenreController@create');
+//esta ruta lo guarda
+Route::post('/crearGenero', 'GenreController@save');
+Route::get('/genres/{id}', 'GenreController@oneGenre');
 
-Route::get('actors','ActorController@index');
+Route::get('/genres', 'GenreController@index');
+Route::post('/movies/edit/{id}', 'MovieController@update');
+
+Route::get('/movies/edit/{id}', 'MovieController@edit');
+Route::get('/movies/create', 'MovieController@create');
+Route::get('/movies', 'MovieController@index');
+
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'MainController@index');
+
 
 Route::get('/miRuta', function() {
  echo " <h1> Mi primer ruta en

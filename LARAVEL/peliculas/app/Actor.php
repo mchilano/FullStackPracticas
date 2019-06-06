@@ -18,4 +18,9 @@ class Actor extends Model
       return '('. $this->rating .')';
     }
 
+    public function dameDondeActuas()
+    {
+      return null
+    }
+
 }
