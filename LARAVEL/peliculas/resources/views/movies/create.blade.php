@@ -26,7 +26,7 @@
                 </div>
 
                 <div  class="form-group col-md-4">
-                    <label for="duracion">Extreno</label>
+                    <label for="duracion">Estreno</label>
                     <input class="form-control" type="date" name="release_date" id="release_date"/>
                 </div>
 

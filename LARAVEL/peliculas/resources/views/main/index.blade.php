@@ -22,7 +22,7 @@
 
         <div class="pelicula">
            <a href="#">
-            <img src="/images/posters/guardianesdelagalaxia.jpg" alt="" class="peli-img">
+            <img src="/images/guardianesdelagalaxia.jpg" alt="" class="peli-img">
             <img src="/images/img-nuevo.png" alt="" class="banderin">
             <h4>Ver más</h4>
             <h3 class="peli-titulo">Guardianes de la Galaxia</h3>
@@ -31,7 +31,7 @@
 
           <div class="pelicula">
             <a href="#">
-              <img src="/images/posters/avengers.jpg" alt="" class="peli-img">
+              <img src="/images/avengers.jpg" alt="" class="peli-img">
               <img src="/images/img-nuevo.png" alt="" class="banderin">
               <h4>Ver más</h4>
               <h3 class="peli-titulo">Avengers</h3>
@@ -59,7 +59,7 @@
 
         <div class="pelicula">
           <a href="#">
-            <img src="/images/posters/corazonvaliente.jpg" alt="" class="peli-img">
+            <img src="/images/corazonvaliente.jpg" alt="" class="peli-img">
             <img src="/images/img-gratis.png" alt="" class="banderin">
             <h4>Ver más</h4>
             <h3 class="peli-titulo">Corazón Valiente</h3>
@@ -68,7 +68,7 @@
 
           <div class="pelicula">
             <a href="#">
-              <img src="/images/posters/piratasdelcaribe.jpg" alt="" class="peli-img">
+              <img src="/images/piratasdelcaribe.jpg" alt="" class="peli-img">
               <img src="/images/img-gratis.png" alt="" class="banderin">
               <h4>Ver más</h4>
               <h3 class="peli-titulo">Piratas del Caribe</h3>
@@ -77,7 +77,7 @@
 
           <div class="pelicula">
             <a href="#">
-              <img src="/images/posters/thorragnarok.jpg" alt="" class="peli-img">
+              <img src="/images/thorragnarok.jpg" alt="" class="peli-img">
               <img src="/images/img-gratis.png" alt="" class="banderin">
               <h4>Ver más</h4>
               <h3 class="peli-titulo">Thor</h3>
@@ -95,7 +95,7 @@
 
         <div class="pelicula">
           <a href="#">
-            <img src="/images/posters/intensamente.jpg" alt="" class="peli-img">
+            <img src="/images/intensamente.jpg" alt="" class="peli-img">
             <img src="/images/3d-icon.png" alt="" class="banderin">
             <h4>Ver más</h4>
             <h3 class="peli-titulo">Intensamente</h3>
@@ -104,7 +104,7 @@
 
           <div class="pelicula">
             <a href="#">
-              <img src="/images/posters/civilwar.jpeg" alt="" class="peli-img">
+              <img src="/images/civilwar.jpeg" alt="" class="peli-img">
               <img src="/images/3d-icon.png" alt="" class="banderin">
               <h4>Ver más</h4>
               <h3 class="peli-titulo">Civil War</h3>
@@ -113,7 +113,7 @@
 
           <div class="pelicula">
             <a href="#">
-              <img src="/images/posters/capitanamerica.jpg" alt="" class="peli-img">
+              <img src="/images/capitanamerica.jpg" alt="" class="peli-img">
               <img src="/images/3d-icon.png" alt="" class="banderin">
               <h4>Ver más</h4>
               <h3 class="peli-titulo">Capitán América</h3>
