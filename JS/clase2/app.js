@@ -82,5 +82,5 @@ switch(numero) {
 
     }
   }
-    cambiarColorDeFondoDelBody('green');
+    cambiarColorDeFondoDelBody('blue');
   }
